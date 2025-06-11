@@ -45,6 +45,14 @@ public class Main {
         String[] palabras = {"manzana", "banana", "manzana", "pera"};
         System.out.println("Ocurrencias de 'manzana': " + funciones.contarOcurrencias(palabras, "manzana"));
 
+        // 13. Array formateado
+        int[] numeros = {1, 2, 3, 4, 5};
+        funciones.imprimirArray(numeros);
+
+        // Ejercicio 14
+        int[] invertido = funciones.invertirArray(numeros);
+        funciones.imprimirArray(invertido);
+
     }
 
 }

@@ -85,4 +85,26 @@ public class funciones {
         }
         return contador;
     }
+
+    // 13. Array formateado
+    public void imprimirArray ( int[] arreglo){
+        System.out.print("[");
+        for (int i = 0; i < arreglo.length; i++) {
+            System.out.print(arreglo[i]);
+            if (i < arreglo.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println("]");
+    }
+
+    // 14. Array invertido
+    public int[] invertirArray(int[] arreglo) {
+        int[] invertido = new int[arreglo.length];
+        for (int i = 0; i < arreglo.length; i++) {
+            invertido[i] = arreglo[arreglo.length - 1 - i];
+        }
+        return invertido;
+    }
+
 }
