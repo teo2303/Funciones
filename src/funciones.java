@@ -107,4 +107,22 @@ public class funciones {
         return invertido;
     }
 
+    // 15. Mejor nota
+    public String mejorEstudiante(String[] nombres, double[] notas) {
+        if (nombres.length == 0 || nombres.length != notas.length) {
+            return "Datos inválidos";
+        }
+
+        double mejorNota = notas[0];
+        String mejor = nombres[0];
+
+        for (int i = 1; i < notas.length; i++) {
+            if (notas[i] > mejorNota) {
+                mejorNota = notas[i];
+                mejor = nombres[i];
+            }
+        }
+        return mejor;
+    }
+
 }

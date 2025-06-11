@@ -53,6 +53,10 @@ public class Main {
         int[] invertido = funciones.invertirArray(numeros);
         funciones.imprimirArray(invertido);
 
+        // 15. Mejor nota
+        String[] nombres = {"esteban", "mateo", "simon"};
+        double[] notas = {7.5, 9.2, 8.1};
+        System.out.println("Mejor estudiante: " + funciones.mejorEstudiante(nombres, notas));
     }
 
 }
