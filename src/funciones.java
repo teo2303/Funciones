@@ -65,4 +65,24 @@ public class funciones {
         return numeros.length > 0 ? suma / numeros.length : 0;
     }
 
+    // 11. Buscar valor en array
+    public boolean buscarValor(int[] arreglo, int valor) {
+        for (int num : arreglo) {
+            if (num == valor) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // 12. Contar ocurrencias
+    public int contarOcurrencias(String[] arreglo, String clave) {
+        int contador = 0;
+        for (String elemento : arreglo) {
+            if (elemento.equals(clave)) {
+                contador++;
+            }
+        }
+        return contador;
+    }
 }

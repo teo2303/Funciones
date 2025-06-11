@@ -26,15 +26,25 @@ public class Main {
         int num2 = 5;
         System.out.println("Cuadrado de " + num2 + ": " + funciones.cuadrado(num2));
 
-        // 8. Factorial
+        // 8. Factorial recursivo
         int num3 = 5;
         System.out.println("Factorial de " + num3 + ": " + funciones.factorial(num3));
 
-        // Ejercicio 9
+        // 9. Sumar múltiples números (varargs)
         System.out.println("Suma: " + funciones.sumarNumeros(1, 2, 3, 4));
 
-        // Ejercicio 10
+        // 10. Promedio de un array
         double[] nums = {8.5, 7.0, 9.5};
         System.out.println("Promedio: " + funciones.promedio(nums));
+
+        // 11. Buscar valor en array
+        int[] enteros = {1, 2, 3, 4, 5};
+        System.out.println("¿Está el 3?: " + funciones.buscarValor(enteros, 3));
+
+        // 12. Contar ocurrencias
+        String[] palabras = {"manzana", "banana", "manzana", "pera"};
+        System.out.println("Ocurrencias de 'manzana': " + funciones.contarOcurrencias(palabras, "manzana"));
+
     }
+
 }
