@@ -17,5 +17,13 @@ public class Main {
 
         // 5. Mostrar menú
         funciones.mostrarMenu();
+
+        // 6. Número par o impar
+        int num1 = 4;
+        System.out.println(num1 + " es par: " + funciones.esPar(num1));
+
+        // 7. Calcular el cuadrado de un número
+        int num2 = 5;
+        System.out.println("Cuadrado de " + num2 + ": " + funciones.cuadrado(num2));
     }
 }

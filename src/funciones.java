@@ -29,4 +29,13 @@ public class funciones {
         System.out.println("4. Convertir texto a mayúsculas");
         System.out.println("5. Salir");
     }
+    // 6. Número par o impar
+    public boolean esPar(int numero) {
+        return numero % 2 == 0;
+    }
+
+    // 7. Calcular el cuadrado de un número
+    public int cuadrado(int numero) {
+        return numero * numero;
+    }
 }
