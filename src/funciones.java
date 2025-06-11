@@ -47,5 +47,22 @@ public class funciones {
             return numero * factorial(numero - 1);
         }
     }
+    // 9. Sumar múltiples números (varargs)
+    public int sumarNumeros(int... numeros) {
+        int suma = 0;
+        for (int num : numeros) {
+            suma += num;
+        }
+        return suma;
+    }
+
+    // 10. Promedio de un array
+    public double promedio(double[] numeros) {
+        double suma = 0;
+        for (double num : numeros) {
+            suma += num;
+        }
+        return numeros.length > 0 ? suma / numeros.length : 0;
+    }
 
 }

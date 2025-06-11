@@ -29,5 +29,12 @@ public class Main {
         // 8. Factorial
         int num3 = 5;
         System.out.println("Factorial de " + num3 + ": " + funciones.factorial(num3));
+
+        // Ejercicio 9
+        System.out.println("Suma: " + funciones.sumarNumeros(1, 2, 3, 4));
+
+        // Ejercicio 10
+        double[] nums = {8.5, 7.0, 9.5};
+        System.out.println("Promedio: " + funciones.promedio(nums));
     }
 }
