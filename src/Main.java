@@ -49,7 +49,7 @@ public class Main {
         int[] numeros = {1, 2, 3, 4, 5};
         funciones.imprimirArray(numeros);
 
-        // Ejercicio 14
+        // 14. Array invertido
         int[] invertido = funciones.invertirArray(numeros);
         funciones.imprimirArray(invertido);
 
