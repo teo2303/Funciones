@@ -25,5 +25,9 @@ public class Main {
         // 7. Calcular el cuadrado de un número
         int num2 = 5;
         System.out.println("Cuadrado de " + num2 + ": " + funciones.cuadrado(num2));
+
+        // 8. Factorial
+        int num3 = 5;
+        System.out.println("Factorial de " + num3 + ": " + funciones.factorial(num3));
     }
 }

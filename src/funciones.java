@@ -38,4 +38,14 @@ public class funciones {
     public int cuadrado(int numero) {
         return numero * numero;
     }
+
+    // 8. Factorial recursivo
+    public int factorial(int numero) {
+        if (numero <= 1) {
+            return 1;
+        } else {
+            return numero * factorial(numero - 1);
+        }
+    }
+
 }
